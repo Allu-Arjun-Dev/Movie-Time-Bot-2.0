@@ -7,17 +7,17 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 🤖 My Name [{bot_name}](t.me/{bot_username})
 
-🧑 My Dev : [Allu Arjun](https://t.me/helloalluarjun)
+🤴 My Dev : [Allu Arjun](https://t.me/helloalluarjun)
 
-🧑 My Creator : {dev_name}
+🧑‍💻 My Creator : {dev_name}
 
-🗃️ My Library : [Pyrogram](https://youtu.be/Af055Eozk9s)
+🛠️ My Library : [Pyrogram]
 
-🖇️ My Language : [Python3](https://youtu.be/Af055Eozk9s)
+🈵 My Language : [Python3]
 
-🗃️ My Database : [Mongodb](https://mongodb.com)
+🗄️ My Database : [Mongodb](https://mongodb.com)
 
-🗳️ My Server : [Heroku](https://heroku.com)"""
+📡 My Server : [Heroku](https://heroku.com)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
