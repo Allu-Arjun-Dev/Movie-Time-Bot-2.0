@@ -12,14 +12,14 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1),
+             InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
              InlineKeyboardButton("🤖 About", callback_data="about") 
              ],[
              InlineKeyboardButton("🧑‍💻 Allu Arjun", url="https://t.me/helloalluarjun"),
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1),
+             InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
              InlineKeyboardButton("🤖 About", callback_data="about") 
              ],[
              InlineKeyboardButton(" Allu Arjun", url="https://t.me/helloalluarjun"),
