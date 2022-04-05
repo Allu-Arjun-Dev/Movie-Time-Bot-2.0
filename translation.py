@@ -11,9 +11,9 @@ class LuciferMoringstar(object):
 
 🧑 My Creator : {dev_name}
 
-📦 My Source : [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
 
-📺 My Tutorial : [Ckick Here](https://youtu.be/FCU_XJmyG_U)
+
+
 
 🗃️ My Library : [Pyrogram](https://youtu.be/Af055Eozk9s)
 
@@ -23,9 +23,9 @@ class LuciferMoringstar(object):
 
 🗳️ My Server : [Heroku](https://youtu.be/xcZD55td6Vw)
 
-🏷️ My Updates : [Mo Tech](t.me/Mo_Tech_YT)
 
-🗣️ My Support : [Any Doubt](t.me/Mo_Tech_Group)"""
+
+"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
