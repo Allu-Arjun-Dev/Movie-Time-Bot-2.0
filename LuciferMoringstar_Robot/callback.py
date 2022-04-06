@@ -265,14 +265,14 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
                  InlineKeyboardButton("🤖 ᗩᗷOᑌT", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("♛ ᗩᒪᒪᑌ ᗩᖇᒍᑌᑎ", url="https://t.me/helloalluarjun")
+                 InlineKeyboardButton("🧑‍💻 ᗩᒪᒪᑌ ᗩᖇᒍᑌᑎ", url="https://t.me/helloalluarjun")
                  ]]
             else:
                 buttons = [[
                  InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
                  InlineKeyboardButton("🤖 ᗩᗷOᑌT", callback_data="about") 
                  ],[
-                 InlineKeyboardButton(♛ ᗩᒪᒪᑌ ᗩᖇᒍᑌᑎ", url="https://t.me/helloalluarjun"),
+                 InlineKeyboardButton(🧑‍💻 ᗩᒪᒪᑌ ᗩᖇᒍᑌᑎ", url="https://t.me/helloalluarjun"),
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
