@@ -52,6 +52,6 @@ class LuciferMoringstar(object):
 📆 **Year** : {year}
 🌟 **Rating** {rating}/10
 🎭 **Genres** {genres}
-
-
 © **{chat}**"""
+
+
