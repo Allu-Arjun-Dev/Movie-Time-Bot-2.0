@@ -1,9 +1,5 @@
+![images (20)](https://user-images.githubusercontent.com/102848810/161901020-39219b07-13c6-402f-866f-680c6cc45358.jpeg)
 
-
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/FCU_XJmyG_U">𝗟𝘂𝗰𝗶𝗳𝗲𝗿𝗠𝗼𝗿𝗶𝗻𝗴𝘀𝘁𝗮𝗿 𝗥𝗼𝗯𝗼𝘁</a>
 </p>
 
 <img src="https://img.shields.io/github/stars/PR0FESS0R-99/LuciferMoringstar-Robot?style=social" /> <img src="https://img.shields.io/github/forks/PR0FESS0R-99/LuciferMoringstar-Robot?style=social" />
