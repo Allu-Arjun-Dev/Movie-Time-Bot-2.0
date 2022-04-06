@@ -244,7 +244,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 caption=CUSTOM_FILE_CAPTION.format(mention=query.from_user.mention, title=title, size=size, caption=files.caption)
 
                 buttons = [[
-                  InlineKeyboardButton('🧑‍💻 How To Own 🧑‍💻', url='https://t.me/Mo_Tech_Group')
+                  InlineKeyboardButton('🔗 ᗰOᐯIE TIᗰE 2.0', url='https://t.me/+1CZ0RvqgItEzZTQ1')
                   ]]                 
                 
                 await query.answer()
@@ -262,30 +262,30 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
-                 InlineKeyboardButton("🤖 About", callback_data="about") 
+                 InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
+                 InlineKeyboardButton("🤖 ᗩᗷOᑌT", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🧑‍💻 αʅʅυ αɾʝυɳ", url="https://t.me/helloalluarjun")
+                 InlineKeyboardButton("♛ ᗩᒪᒪᑌ ᗩᖇᒍᑌᑎ ♛", url="https://t.me/helloalluarjun")
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
-                 InlineKeyboardButton("🤖 About", callback_data="about") 
+                 InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
+                 InlineKeyboardButton("🤖 ᗩᗷOᑌT", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🧑‍💻 αʅʅυ αɾʝυɳ", url="https://t.me/helloalluarjun"),
+                 InlineKeyboardButton(♛ ᗩᒪᒪᑌ ᗩᖇᒍᑌᑎ ♛", url="https://t.me/helloalluarjun"),
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "help":
             buttons = [[
-              InlineKeyboardButton("🏠 Home", callback_data="start"),
-              InlineKeyboardButton("About 🤖", callback_data="about")
+              InlineKeyboardButton("🏠 ᕼOᗰE", callback_data="start"),
+              InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about")
               ]]               
             await query.message.edit(text=LuciferMoringstar.HELP_MSG.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [[
-             InlineKeyboardButton("🏠 Home", callback_data="start"),
+             InlineKeyboardButton("🏠 ᕼOᗰE", callback_data="start"),
              InlineKeyboardButton("Close 🗑️", callback_data="close")
              ]]               
             await query.message.edit(text=LuciferMoringstar.ABOUT_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -295,26 +295,26 @@ async def cb_handler(client: lucifermoringstar_robot, query):
 
         elif query.data == "bot_owner":
             buttons = [[
-             InlineKeyboardButton('🏠 Home', callback_data="start"),
-             InlineKeyboardButton('About 🤖', callback_data="about")
+             InlineKeyboardButton('🏠 ᕼOᗰE', callback_data="start"),
+             InlineKeyboardButton('ᗩᗷOᑌT 🤖', callback_data="about")
              ]]               
             await query.message.edit(text=LuciferMoringstar.PR0FESS0R_99.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
         elif query.data == "autofilter":
-            buttons = [[ InlineKeyboardButton('🔙 Back', callback_data="help") ]]          
+            buttons = [[ InlineKeyboardButton('🔙 ᗷᗩᑕK', callback_data="help") ]]          
             await query.message.edit(module.autofilter_text.format(team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "ban":
-            buttons = [[ InlineKeyboardButton('🔙 Back', callback_data="help") ]]          
+            buttons = [[ InlineKeyboardButton('🔙 ᗷᗩᑕK', callback_data="help") ]]          
             await query.message.edit(module.ban_text.format(team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "mute":
-            buttons = [[ InlineKeyboardButton('🔙 Back', callback_data="help") ]]          
+            buttons = [[ InlineKeyboardButton('🔙 ᗷᗩᑕK', callback_data="help") ]]          
             await query.message.edit(module.mute_text.format(team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "pin":
-            buttons = [[ InlineKeyboardButton('🔙 Back', callback_data="help") ]]          
+            buttons = [[ InlineKeyboardButton('🔙 ᗷᗩᑕK', callback_data="help") ]]          
             await query.message.edit(module.pin_message.format(team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "close":
