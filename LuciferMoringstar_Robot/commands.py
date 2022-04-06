@@ -15,14 +15,14 @@ async def start_message(bot, message):
              InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
              InlineKeyboardButton("🤖 About", callback_data="about") 
              ],[
-             InlineKeyboardButton("🧑‍💻 Allu Arjun", url="https://t.me/helloalluarjun"),
+             InlineKeyboardButton("🧑‍💻 αʅʅυ αɾʝυɳ", url="https://t.me/helloalluarjun"),
              ]]
         else:
             buttons = [[
              InlineKeyboardButton("🔗 Movie Time 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
              InlineKeyboardButton("🤖 About", callback_data="about") 
              ],[
-             InlineKeyboardButton(" Allu Arjun", url="https://t.me/helloalluarjun"),
+             InlineKeyboardButton("🧑‍💻 αʅʅυ αɾʝυɳ", url="https://t.me/helloalluarjun"),
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
