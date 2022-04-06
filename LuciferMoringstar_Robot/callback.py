@@ -221,7 +221,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                         file_id=file_id,
                         caption=caption
                         )
-                    await query.answer('🤖 Check PM, I have Sent Files In Pm 🤖',show_alert = True)
+                    await query.answer('Check PM, I have Sent Files In Pm 📩',show_alert = True)
             except UserIsBlocked:
                 await query.answer('Unblock the bot mahn !',show_alert = True)
             except PeerIdInvalid:
@@ -331,7 +331,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
             if raju == 'reject':
                 await query.message.delete()
                 await client.send_message(int(from_user),
-                                       f'Your Submission for indexing {chat} has been decliened by our moderators.',
+                                       f'Your Submission for indexing {chat} has been decliened by our bot admin.',
                                        reply_to_message_id=int(lst_msg_id))
                 return
 
@@ -342,7 +342,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
             await query.answer('Processing...⏳', show_alert=True)
             if int(from_user) not in ADMINS:
                 await bot.send_message(int(from_user),
-                                       f'Your Submission for indexing {chat} has been accepted by our moderators and will be added soon.',
+                                       f'Your Submission for indexing {chat} has been accepted by our bot admin and will be added soon.',
                                        reply_to_message_id=int(lst_msg_id))
             await msg.edit(
                 "Starting Indexing",
