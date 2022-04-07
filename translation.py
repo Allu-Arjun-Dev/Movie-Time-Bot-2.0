@@ -37,6 +37,8 @@ class LuciferMoringstar(object):
 
 **Couldn't Find {query}?  Please Click Your Request Movie Name**"""
     GET_MOVIE_1 = """
+—(••÷[ ıllıllı ɪᴍᴅʙ ᴅᴀᴛᴀ ıllıllı ]÷••)—
+
 ↪️ **Requested** : [{query}]({url})
 👤 **Requested By** : {mention}
 🎬 **Title** : [{title}]({url})
@@ -46,6 +48,8 @@ class LuciferMoringstar(object):
 
 
     GET_MOVIE_2 = """
+—(••÷[ ıllıllı ɪᴍᴅʙ ᴅᴀᴛᴀ ıllıllı ]÷••)—
+
 ↪️ **Requested** : [{query}]({url})
 👤 **Requested By** : {mention}
 🎬 **Title** : [{title}]({url})
