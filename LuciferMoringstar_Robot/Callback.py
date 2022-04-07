@@ -261,7 +261,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
 
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
-                buttons = [[ᗰOᐯIE
+                buttons = [[
                  InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url="https://t.me/+1CZ0RvqgItEzZTQ1"),
                  InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
                  ],[
