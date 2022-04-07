@@ -31,7 +31,7 @@ class LuciferMoringstar(object):
  » /logger - Get Bot Logs
  » /channel - Add Channel List"""
 
-    ADD_YOUR_GROUP = """**__ഞാൻ ജോലി ചെയ്യുന്ന ഗ്രൂപ്പിൽ ചേരൂ, നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ സിനിമകളും ആ ഗ്രൂപ്പിൽ അഭ്യർത്ഥിക്കാം! ഇവിടെ അഭ്യർത്തിക്കരുത്..😤__**"""
+    ADD_YOUR_GROUP = """**__Join the group I work for and request all your favorite movies in that group! Don't request here.__**"""
     SPELL_CHECK = """
 **Hello 👋{mention}**,
 
