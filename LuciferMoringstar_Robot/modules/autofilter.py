@@ -29,8 +29,8 @@ async def group_filters(client, message):
                  InlineKeyboardButton("🔍 Google 🔎", url=f"https://www.google.com/search?q={reply}")
                  ],[
                  InlineKeyboardButton("🔍 IMDB", url=f"https://www.imdb.com/find?q={reply}"),
-                 InlineKeyboardButton("Close 🗑️", callback_data='close')
-                 InlineKeyboardButton("♻️ Help", callback_data='help'),
+                 InlineKeyboardButton("Close 🗑️", callback_data='close'),
+                 InlineKeyboardButton("♻️ Help", callback_data='help')
                  ]]  
                 )    
                 LuciferMoringstar_delete=await message.reply_text(
