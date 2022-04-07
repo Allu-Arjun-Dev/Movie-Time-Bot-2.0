@@ -48,8 +48,8 @@ class LuciferMoringstar(object):
 
 —(••÷[ ıllıllı ꜱᴇʀᴠᴇʀ ᴅᴀᴛᴀ ıllıllı ]÷••)—
    
-↪️ Requested : [{query}]({url})
-👤 Requested By : {mention}"""
+↪️ **Requested** : [{query}]({url})
+👤 **Requested By** : {mention}"""
      
       GET_MOVIE_2 = """
 —(••÷[ ıllıllı ɪᴍᴅʙ ᴅᴀᴛᴀ ıllıllı ]÷••)—
