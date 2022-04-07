@@ -7,17 +7,17 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 🤖 My Name [{bot_name}](t.me/{bot_username})
 
-🤴 My Dev : [Allu Arjun](https://t.me/helloalluarjunhttps://t.me/helloalluarjun)
+🤴 My Dev : [[Allu Arjun]](https://t.me/helloalluarjunhttps://t.me/helloalluarjun)
 
-🧑‍💻 My Creator : {dev_name}
+🧑‍💻 My Creator : [{dev_name}]
 
 🛠️ My Library : [Pyrogram]
 
 🈵 My Language : [Python3]
 
-🗄️ My Database : [Mongodb](https://mongodb.com)
+🗄️ My Database : [[Mongodb]](https://mongodb.com)
 
-📡 My Server : [Heroku](https://heroku.com)"""
+📡 My Server : [[Heroku]](https://heroku.com)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
@@ -31,7 +31,7 @@ class LuciferMoringstar(object):
  » /logger - Get Bot Logs
  » /channel - Add Channel List"""
 
-    ADD_YOUR_GROUP = """**__Join the group I work for and request all your favorite movies in that group! Don't request here.__**"""
+    ADD_YOUR_GROUP = """**__Join the group I work for and request all your favorite movies in that group! Don't request here.👇__**"""
     SPELL_CHECK = """
 **Hello 👋{mention}**,
 
