@@ -25,7 +25,24 @@ class LuciferMoringstar(object):
 
 📡 My Server : [[Heroku]](https://heroku.com)"""
 
-    FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
+    FILE_CAPTIONS = """📂 File Info - <code>{title}</code>
+✯ ━━━━━ ✧ ━━━━━ ✯
+🔘𝐉𝐨𝐢𝐧
+👉<a href=https://t.me/+1CZ0RvqgItEzZTQ1  >𝑀𝑜𝑣𝑖𝑒 𝑇𝑖𝑚𝑒 2.0</a>
+👉<a href=https://t.me/+ZgWO7gGleUgwMTc1 >𝑀𝑜𝑣𝑖𝑒 𝑇𝑖𝑚𝑒 𝑈𝑝𝑑𝑎𝑡𝑒𝑠</a>
+✯ ━━━━━ ✧ ━━━━━ ✯
+➠𝐇𝐞𝐫𝐞 𝐈𝐬 𝐘𝐨𝐮𝐫 #𝐑𝐞𝐪𝐮𝐞𝐬𝐭
+✯ ━━━━━ ✧ ━━━━━ ✯
+👋 ʜᴇʏ!!
+ᴋɪɴᴅʟʏ ᴀᴅᴅ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ, 
+ᴀꜰᴛᴇʀ ɢᴇᴛᴛɪɴɢ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ.
+ɪᴛ ᴡɪʟʟ ʜᴇʟᴘ ᴜꜱ ɢʀᴏᴡɪɴɢ 🙏
+✯ ━━━━━ ✧ ━━━━━ ✯
+⬆️𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲
+👉<a href='https://t.me/helloalluarjun'>𝐴𝑙𝑙𝑢 𝐴𝑟𝑗𝑢𝑛</a>
+✯ ━━━━━ ✧ ━━━━━ ✯
+𝐉𝐨𝐢𝐧🎗️ 𝐒𝐡𝐚𝐫𝐞🎗️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
+✯ ━━━━━ ✧ ━━━━━ ✯"""
 
     PR0FESS0R_99 = """
 **ADMINS COMMANDS**
