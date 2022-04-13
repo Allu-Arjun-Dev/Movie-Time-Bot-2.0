@@ -47,12 +47,12 @@ class LuciferMoringstar(object):
     PR0FESS0R_99 = """
 Hello👋 {mention},
 
- » /broadcast - Reply Any Media Or Message
- » /delete - Reply Files
- » /deleteall - Delete All Files
- » /total - How Many Files Saved
- » /logger - Get Bot Logs
- » /channel - Add Channel List"""
+I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time Bot</a>'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules."""
+
+
+ 
+ 
+ 
 
     ADD_YOUR_GROUP = """**__Join the group I work for and request all your favorite movies in that group! Don't request here.👇__**"""
     SPELL_CHECK = """
