@@ -287,7 +287,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
               InlineKeyboardButton("👥 Broadcast", callback_data="broadcast"),
               InlineKeyboardButton("Delete ✅", callback_data="delete"),
               InlineKeyboardButton("📁 Total", callback_data="total")
-              ]]               
+                      ],[ 
+              InlineKeyboardButton("🤖 Logger", callback_data="logger")
+              InlineKeyboardButton("Channel 📯", callback_data="channel")
+              InlineKeyboardButton("🏠 Home", callback_data="home")
+            ]]               
             await query.message.edit(text=LuciferMoringstar.HELP_MSG.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
@@ -305,6 +309,12 @@ async def cb_handler(client: lucifermoringstar_robot, query):
              InlineKeyboardButton('👥 Broadcast', callback_data="broadcast"),
              InlineKeyboardButton('Delete ✅', callback_data="delete"),
              InlineKeyboardButton('📁 Total', callback_data="total")
+                      ],[ 
+              InlineKeyboardButton("🤖 Logger", callback_data="logger")
+              InlineKeyboardButton("Channel 📯", callback_data="channel")
+              InlineKeyboardButton("🏠 Home", callback_data="home")
+            
+            
             ]]               
             await query.message.edit(text=LuciferMoringstar.PR0FESS0R_99.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
