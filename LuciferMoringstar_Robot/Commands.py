@@ -54,7 +54,7 @@ async def help(bot, message):
      InlineKeyboardButton("📁 Total", callback_data="total")
              ],[
      InlineKeyboardButton("🤖 Logger", callback_data="logger"),
-     InlineKeyboardButton("Channel 📯", callback_data="channel")
+     InlineKeyboardButton("Channel 📯", callback_data="channel"),
      InlineKeyboardButton("🏠 Home", callback_data="home")
     ]]
     await message.reply_photo(
