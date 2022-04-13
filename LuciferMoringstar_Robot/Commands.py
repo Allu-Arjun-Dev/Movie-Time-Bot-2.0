@@ -12,18 +12,18 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
+             InlineKeyboardButton("Movie Time 2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
              ],[
-             InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
-            InlineKeyboardButton("♻️ ᕼEᒪᑭ",callback_data="help"),
+             InlineKeyboardButton("😎 About", callback_data="about") 
+            InlineKeyboardButton("ℹ️ Help",callback_data="help"),
             
               ]]
         else:
             buttons = [[
-             InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE  2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
+             InlineKeyboardButton("Movie Time 2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
              ],[
-             InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
-             InlineKeyboardButton("♻️ ᕼEᒪᑭ",callback_data="help"),
+             InlineKeyboardButton("😎 About", callback_data="about") 
+             InlineKeyboardButton("ℹ️ Help",callback_data="help"),
              
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
