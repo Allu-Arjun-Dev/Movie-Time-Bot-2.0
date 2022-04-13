@@ -265,7 +265,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
                  ],[
                  InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
-                 ],[
+                
                  InlineKeyboardButton("♻️ ᕼEᒪᑭ", url="https://t.me/helloalluarjun"),
                  
                  ]]
@@ -277,7 +277,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
                  ],[
                  InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
-                 ],[
+               
                  InlineKeyboardButton("♻️ ᕼEᒪᑭ", url="https://t.me/helloalluarjun"),
            
                  ]]               
