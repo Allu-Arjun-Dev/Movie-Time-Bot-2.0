@@ -76,3 +76,8 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 🌟 Rating {rating}/10
 🎭 Genres {genres}
 © **{chat}**"""
+    
+    
+    BROAD_CAST ="""
+    
+» /broadcast - Reply Any Media Or Message
