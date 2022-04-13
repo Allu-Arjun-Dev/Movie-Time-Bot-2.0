@@ -15,7 +15,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE 2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
              ],[
              InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
-             ],[
+
              InlineKeyboardButton("♻️ ᕼEᒪᑭ", url="https://t.me/helloalluarjun"),
              ]]
         else:
@@ -23,7 +23,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("🔗 ᗰOᐯIE TIᗰE  2.0", url=f"https://t.me/+1CZ0RvqgItEzZTQ1"),
              ],[
              InlineKeyboardButton("ᗩᗷOᑌT 🤖", callback_data="about") 
-             ],[
+           
              InlineKeyboardButton("♻️ ᕼEᒪᑭ", url="https://t.me/helloalluarjun"),
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
