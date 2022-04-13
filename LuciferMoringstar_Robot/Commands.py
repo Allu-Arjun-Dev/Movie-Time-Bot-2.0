@@ -50,7 +50,7 @@ async def start_message(bot, message):
 async def help(bot, message):
     button = [[
      InlineKeyboardButton("👥 Broadcast", callback_data="broadcast"),
-     InlineKeyboardButton("Delete ✅", callback_data="about"),
+     InlineKeyboardButton("Delete ✅", callback_data="delete"),
      InlineKeyboardButton("📁 Total", callback_data="total")
              ],[
      InlineKeyboardButton("🤖 Logger", callback_data="logger")
