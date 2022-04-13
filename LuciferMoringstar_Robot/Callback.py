@@ -285,7 +285,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "help":
             buttons = [[
               InlineKeyboardButton("👥 Broadcast", callback_data="broadcast"),
-              InlineKeyboardButton("Delete ✅", callback_data="delete")
+              InlineKeyboardButton("Delete ✅", callback_data="delete"),
               InlineKeyboardButton("📁 Total", callback_data="total")
               ]]               
             await query.message.edit(text=LuciferMoringstar.HELP_MSG.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
