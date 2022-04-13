@@ -45,7 +45,7 @@ class LuciferMoringstar(object):
 ✯ ━━━━━ ✧ ━━━━━ ✯"""
 
     PR0FESS0R_99 = """
-**ADMINS COMMANDS**
+Hello👋 {mention},
 
  » /broadcast - Reply Any Media Or Message
  » /delete - Reply Files
