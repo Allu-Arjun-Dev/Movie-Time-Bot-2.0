@@ -49,9 +49,14 @@ async def start_message(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
     button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("About 😎", callback_data="about")
-     ]]
+     InlineKeyboardButton("👥 Broadcast", callback_data="broadcast"),
+     InlineKeyboardButton("Delete ✅", callback_data="about")
+     InlineKeyboardButton("📁 Total", callback_data="total")
+             ],[
+     InlineKeyboardButton("🤖 Logger", callback_data="logger")
+     InlineKeyboardButton("Channel 📯", callback_data="channel")
+     InlineKeyboardButton("🏠 Home", callback_data="home")
+    ]]
     await message.reply_photo(
         photo = choice(BOT_PICS),
         caption=LuciferMoringstar.HELP_MSG.format(mention=message.from_user.mention),
