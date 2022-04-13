@@ -290,7 +290,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                       ],[ 
               InlineKeyboardButton("🤖 Logger", callback_data="logger"),
               InlineKeyboardButton("Channel 📯", callback_data="channel"),
-              InlineKeyboardButton("🏠 Home", callback_data="home")
+              InlineKeyboardButton("🏠 Home", callback_data="start")
             ]]               
             await query.message.edit(text=LuciferMoringstar.HELP_MSG.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
@@ -312,7 +312,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                       ],[ 
               InlineKeyboardButton("🤖 Logger", callback_data="logger"),
               InlineKeyboardButton("Channel 📯", callback_data="channel"),
-              InlineKeyboardButton("🏠 Home", callback_data="home")
+              InlineKeyboardButton("🏠 Home", callback_data="start")
             
             
             ]]               
