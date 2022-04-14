@@ -78,7 +78,7 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 © **{chat}**"""
     
     
-    BROADCAST_MSG = """
-    
+    BROADCAST_MSG = """Help: <b>Buttons</b>
+<b>NOTE:</b> 
 
-» /broadcast - Reply Any Media Or Message"""
+- /broadcast - Reply Any Media Or Message"""
