@@ -78,7 +78,7 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 © **{chat}**"""
     
     
-    WHO_AM_I_MSG = """
+    WAI_MSG = """
 Hello 👋 {mention},
 I Can't Write Everything In My Bio So I Created This...
 
