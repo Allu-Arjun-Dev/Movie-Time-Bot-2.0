@@ -78,7 +78,27 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 © **{chat}**"""
     
     
-    BROADCAST_MSG = """Help: <b>Buttons</b>
-<b>NOTE:</b> 
+    PR0FESS0R_99 = """
+Hello 👋 {mention},
+I Can't Write Everything In My Bio So I Created This...
 
-- /broadcast - Reply Any Media Or Message"""
+╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
+├• Name⇝ Bikash Maity
+├• Gender⇝ Male
+├• TG Name⇝ Allu Arjun
+├• Username⇝ @helloalluarjun
+├• Birthday⇝ 10th January 2006
+├• Age⇝ 16
+├• Relationship Status⇝ Single
+├• Nationality⇝ Indian
+├• Location⇝ West Bengal, India
+├• Contact Bot⇝ Soon... 🤖
+╰──────⍟───────╯
+
+╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
+├• <a href='https://t.me/+1CZ0RvqgItEzZTQ1'>MOVIE TIME</a>
+├• <a href='https://t.me/+ZgWO7gGleUgwMTc1'>MOVIE TIME UPDATES</a>
+├• <a href='http://t.me/MovieTime_Robot'>MovieTime_Robot</a>
+╰──────⍟───────╯
+
+Thank You For Reading Patiently 🙏"""
