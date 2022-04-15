@@ -18,7 +18,7 @@ async def group_filters(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"{get_size(file.file_size)} {file.file_name}"
+                filename = f"➠{get_size(file.file_size)} {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}", callback_data=f"lucifermoringstar_robot#{file_id}")]
                 )
@@ -38,7 +38,7 @@ async def group_filters(client, message):
                     text=SET_SPEL_M.format(query=search, mention=message.from_user.mention),
                     reply_markup=reply_markup                 
                 )
-                await asyncio.sleep(60) 
+                await asyncio.sleep(30) 
                 await LuciferMoringstar_delete.delete()
             return
         if not btn:
@@ -121,7 +121,7 @@ async def pm_autofilter(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"{get_size(file.file_size)} {file.file_name}"
+                filename = f"➠{get_size(file.file_size)} {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}", callback_data=f"pmfile#{file_id}")]
                 )
