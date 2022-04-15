@@ -78,7 +78,7 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 © **{chat}**"""
     
     
-    PR0FESS0R_99 = """
+    WHO_AM_I = """
 Hello 👋 {mention},
 I Can't Write Everything In My Bio So I Created This...
 
@@ -98,7 +98,7 @@ I Can't Write Everything In My Bio So I Created This...
 ╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
 ├• <a href='https://t.me/+1CZ0RvqgItEzZTQ1'>MOVIE TIME</a>
 ├• <a href='https://t.me/+ZgWO7gGleUgwMTc1'>MOVIE TIME UPDATES</a>
-├• <a href='http://t.me/MovieTime_Robot'>MovieTime_Robot</a>
+├• <a href='http://t.me/MovieTime_Robot'>MOVIE TIME BOT</a>
 ╰──────⍟───────╯
 
 Thank You For Reading Patiently 🙏"""
