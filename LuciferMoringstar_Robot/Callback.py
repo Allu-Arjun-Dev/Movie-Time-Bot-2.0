@@ -267,7 +267,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  InlineKeyboardButton("ℹ️ Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🎭 Who Am I", callback_data="who"),
+                 InlineKeyboardButton("🎭 Who Am I", callback_data="wai"),
                 
                  ]]
             else:
@@ -277,7 +277,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
-                 InlineKeyboardButton("🎭 Who Am I", callback_data="who"),
+                 InlineKeyboardButton("🎭 Who Am I", callback_data="wai"),
               
                  ]]               
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
