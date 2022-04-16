@@ -55,7 +55,7 @@ async def group_filters(client, message):
             buttons = btn
             buttons.append(
                 [InlineKeyboardButton(text="📃 1/1",callback_data="pages"),
-                 InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                 InlineKeyboardButton("🗑️", callback_data="close")]
             )
             buttons.append(
                 [InlineKeyboardButton(text="🤖 Check Bot PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -84,7 +84,7 @@ async def group_filters(client, message):
         )    
         buttons.append(
             [InlineKeyboardButton(text=f"📃 1/{data['total']}",callback_data="pages"),
-             InlineKeyboardButton("Close 🗑️", callback_data="close")]
+             InlineKeyboardButton("🗑️", callback_data="close")]
         )
         buttons.append(
             [InlineKeyboardButton(text="🤖 Check Bot PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -149,7 +149,7 @@ async def pm_autofilter(client, message):
             buttons = btn
             buttons.append(
                 [InlineKeyboardButton(text="📃 1/1",callback_data="pages"),
-                 InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                 InlineKeyboardButton("🗑️", callback_data="close")]
             )
 
 
@@ -177,7 +177,7 @@ async def pm_autofilter(client, message):
         )    
         buttons.append(
             [InlineKeyboardButton(text=f"📃 1/{data['total']}",callback_data="pages"),
-             InlineKeyboardButton("Close 🗑️", callback_data="close")]
+             InlineKeyboardButton("🗑️", callback_data="close")]
         )
 
         imdb=await get_poster(search)
