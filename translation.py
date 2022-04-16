@@ -65,8 +65,8 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 🎬 **Title** : [{title}]({url})
 📆 **Year** : {year}
 🌟 **Rating** {rating}/10
-🎭 **Genres** {genres}"""
-
+🎭 **Genres** {genres}
+🧑‍🔧 Get Support ✔️ <a href='https://t.me/helloalluarjun'>Allu Arjun</a>"""
 
     GET_MOVIE_2 = """
 ↪️ **Requested** : {query}
