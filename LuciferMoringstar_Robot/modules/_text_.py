@@ -45,4 +45,4 @@ All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The
     logger_text = """
 📚 <u>logger text</u> :-
 
-★ /logger - Get Bot Logs 
+★ /logger - Get Bot Logs""" 
