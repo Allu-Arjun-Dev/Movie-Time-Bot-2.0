@@ -44,7 +44,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -62,7 +62,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -89,7 +89,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -106,7 +106,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/{bot_info.BOT_USERNAME}")]
@@ -136,7 +136,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -151,7 +151,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -175,7 +175,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -190,7 +190,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -221,7 +221,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                         file_id=file_id,
                         caption=caption
                         )
-                    await query.answer('🤖 Check PM, I have Sent Files In Pm 🤖',show_alert = True)
+                    await query.answer('Check PM, I have Sent Files In Pm 📩',show_alert = True)
             except UserIsBlocked:
                 await query.answer('Unblock the bot mahn !',show_alert = True)
             except PeerIdInvalid:
@@ -382,7 +382,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
 
 
     else:
-        await query.answer("Please Request",show_alert=True)
+        await query.answer("Ask For Your Own Movie Or Series 🤭",show_alert=True)
 
 
 
