@@ -11,7 +11,7 @@ class LuciferMoringstar(object):
 👉 Avoid Requesting Unreleased Movie/Series**"""
 
     ABOUT_MSG = """
-🤖 My Name [{bot_name}](t.me/{bot_username})
+🤖 My Name [[{bot_name}]](t.me/{bot_username})
 
 🤴 My Dev : [[Allu Arjun]](https://t.me/helloalluarjunhttps://t.me/helloalluarjun)
 
