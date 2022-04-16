@@ -60,6 +60,8 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 
 **Couldn't Find {query}?  Please Click Your Request Movie Name**"""
     GET_MOVIE_1 = """
+**Hello 👋{mention}**,
+
 ↪️ **Requested** : [{query}]({url})
 👤 **Requested By** : {mention}
 🎬 **Title** : [{title}]({url})
