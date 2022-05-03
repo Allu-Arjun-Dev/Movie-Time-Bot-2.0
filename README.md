@@ -2,8 +2,9 @@
 </p>
 
 #Introduction😎
-
-
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Movie+Time!;Created+by+Allu+Arjun!;A+simple+and+a+powerful+Bot!;Start+message+with+pic!;And+More+Awsome+Features!;Don't+Forget+To+Subcribe;Movie+Time;)
+</p>
+</h1>
 
 
 
