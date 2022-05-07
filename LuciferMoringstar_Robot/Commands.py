@@ -66,7 +66,7 @@ async def help(bot, message):
 async def about(bot, message):
     button = [[
      InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("Close 🗑️", callback_data="close")
+     InlineKeyboardButton("Close ✗", callback_data="close")
      ]]  
     await message.reply_photo(
         photo = choice(BOT_PICS),
