@@ -43,7 +43,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
@@ -61,7 +61,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
@@ -88,7 +88,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
@@ -105,7 +105,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("🔙 Back Page", callback_data=f"backgroup_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
@@ -135,7 +135,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
@@ -150,7 +150,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)+1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
@@ -174,7 +174,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
@@ -189,7 +189,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                     [InlineKeyboardButton("🔙 Back Page", callback_data=f"backbot_{int(index)-1}_{keyword}"),InlineKeyboardButton("Next Page ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
+                    [InlineKeyboardButton(f"{int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
@@ -274,7 +274,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 buttons = [[
                  InlineKeyboardButton("🔗 Movie Time 2.0", url=f"https://t.me/+PD0ieo-ECJgxMTU9")
                  ],[
-                 InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
+                 InlineKeyboardButton("ℹ️ Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
                  ],[
                  InlineKeyboardButton("🎭 Who Am I", callback_data="wai"),
@@ -297,25 +297,23 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "about":
             buttons = [[
              InlineKeyboardButton("🏠 Home", callback_data="start"),
-             InlineKeyboardButton("Close 🗑️", callback_data="close")
+             InlineKeyboardButton("Close ✗", callback_data="close")
              ]]               
             await query.message.edit(text=LuciferMoringstar.ABOUT_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "close":
             await query.message.delete()
 
-        elif query.data == "bot_owner":
+        elif query.data =="help":
             buttons = [[
              InlineKeyboardButton('👥 Broadcast', callback_data="broadcast"),
              InlineKeyboardButton('Delete ✅', callback_data="delete"),
              InlineKeyboardButton('📁 Total', callback_data="total")
                       ],[ 
-              InlineKeyboardButton("🤖 Logger", callback_data="logger"),
-              InlineKeyboardButton("Channel 📯", callback_data="channel"),
-              InlineKeyboardButton("🏠 Home", callback_data="start")
-            
-            
-            ]]               
+             InlineKeyboardButton("🤖 Logger", callback_data="logger"),
+             InlineKeyboardButton("Channel 📯", callback_data="channel"),
+             InlineKeyboardButton("🏠 Home", callback_data="start")
+             ]]               
             await query.message.edit(text=LuciferMoringstar.PR0FESS0R_99.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
@@ -349,7 +347,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
             if raju == 'reject':
                 await query.message.delete()
                 await client.send_message(int(from_user),
-                                       f'Your Submission for indexing {chat} has been decliened by our moderators.',
+                                       f'Your Submission for indexing {chat} has been decliened by our admins.',
                                        reply_to_message_id=int(lst_msg_id))
                 return
 
