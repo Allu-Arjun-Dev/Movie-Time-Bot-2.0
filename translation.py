@@ -13,17 +13,17 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 🤖 My Name [[{bot_name}]](t.me/{bot_username})
 
-🤴 My Dev : [[Allu Arjun]](https://t.me/helloalluarjunhttps://t.me/helloalluarjun)
+🤴 My Dev : [[DarkLord]](https://t.me/hellodarklord)
 
 🧑‍💻 My Creator : [{dev_name}]
 
 🛠️ My Library : [Pyrogram]
 
-🈵 My Language : [Python3]
+🈵 My Language : [Python 3]
 
 🗄️ My Database : [[Mongodb]](https://mongodb.com)
 
-📡 My Server : [[Heroku]](https://heroku.com)"""
+📡 My Server : [[Okteto]](https://okteto.com)"""
 
     FILE_CAPTIONS = """📂 File Info - <code>{title}</code>
 ✯ ━━━━━ ✧ ━━━━━ ✯
@@ -77,30 +77,5 @@ I Can Guide You Through All Of <a href='http://t.me/MovieTime_Robot'>Movie Time 
 📆 Year : {year}
 🌟 Rating : {rating}/10
 🎭 Genres : {genres}
+
 © **{chat}**"""
-    
-    
-    WAI_MSG = """
-Hello 👋 {mention},
-I Can't Write Everything In My Bio So I Created This...
-
-╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
-├• Name⇝ Bikash Maity
-├• Gender⇝ Male
-├• TG Name⇝ Allu Arjun
-├• Username⇝ @helloalluarjun
-├• Birthday⇝ 10th January 2006
-├• Age⇝ 16
-├• Relationship Status⇝ Single
-├• Nationality⇝ Indian
-├• Location⇝ West Bengal, India
-├• Contact Bot⇝ Soon... 🤖
-╰──────⍟───────╯
-
-╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
-├• <a href='https://t.me/+1CZ0RvqgItEzZTQ1'>MOVIE TIME</a>
-├• <a href='https://t.me/+ZgWO7gGleUgwMTc1'>MOVIE TIME UPDATES</a>
-├• <a href='http://t.me/MovieTime_Robot'>MOVIE TIME BOT</a>
-╰──────⍟───────╯
-
-Thank You For Reading Patiently 🙏"""
