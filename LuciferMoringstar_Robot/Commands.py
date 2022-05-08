@@ -17,7 +17,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("ℹ️ Help", callback_data="help"),
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
-             InlineKeyboardButton("🎭 Who Am I", callback_data="wai"),
+             InlineKeyboardButton("🎭 Who Am I", callback_data="who"),
  
              ]]
         else:
@@ -27,7 +27,7 @@ async def start_message(bot, message):
              InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
-             InlineKeyboardButton("🎭 Who Am I", callback_data="wai"),
+             InlineKeyboardButton("🎭 Who Am I", callback_data="who"),
        
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
@@ -49,14 +49,9 @@ async def start_message(bot, message):
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
     button = [[
-     InlineKeyboardButton("👥 Broadcast", callback_data="broadcast"),
-     InlineKeyboardButton("Delete ✅", callback_data="delete"),
-     InlineKeyboardButton("📁 Total", callback_data="total")
-             ],[
-     InlineKeyboardButton("🤖 Logger", callback_data="logger"),
-     InlineKeyboardButton("Channel 📯", callback_data="channel"),
-     InlineKeyboardButton("🏠 Home", callback_data="home")
-    ]]
+     InlineKeyboardButton("🏠 Home", callback_data="start"),
+     InlineKeyboardButton("About 😎", callback_data="about"),
+     ]]
     await message.reply_photo(
         photo = choice(BOT_PICS),
         caption=LuciferMoringstar.HELP_MSG.format(mention=message.from_user.mention),
